@@ -1,2 +1,8 @@
+.hugo_build.lock
+
+gh-pages*
+
 public/
+*.bak
+
 *.DS_Store

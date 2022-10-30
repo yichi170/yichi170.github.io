@@ -5,47 +5,41 @@ theme: "PaperMod"
 buildDrafts: false
 enableEmoji: true
 languageCode: "en-us"
+disqusShortname: "yichi-1"
 
-minify:
-  disableXML: true
-
-languages:
-#  tw:
-#    languageName: ":flag-tw:" # not supported :flag-tw:
-#    languageAltTitle: tw
-#    weight: 1
-  en:
-    languageName: "en"
-    weight: 2
-    taxonomies:
-      category: categories
-      series: series
-      tag: tags
-    menu:
-      main:
-        - name: Home
-          url: /
-        - name: Post
-          url: /posts
-    #profilMode:
-      #enabled: true
-      #title: "Yi-Chi"
-
-outputs:
-  home:
-    - HTML
-    - JSON
+menu:
+  main:
+    - name: Home
+      url: "/"
+    - name: Posts
+      url: "/posts"
+    - name: About
+      url: "/about"
 
 params:
   env: production
   author: "Yi-Chi"
 
-  #profilMode:
+  profileMode:
     # enabled: true
+    title: "Yi-Chi"
+    subtitle: >
+      Hi, I'm Yi-Chi. Welcome to my blog.
+    imageUrl: head.JPEG
+    imageTitle: "Profile image"
+    # imageWidth: 120
+    # imageHeight: 120
+    buttons:
+      - name: Posts
+        url: "/posts"
+      - name: Github
+        url: "https://github.com/yichi170"
+  
   homeInfoParams:
     Title: "Yi-Chi"
     Content: >
       Hi, I'm Yi-Chi. Welcome to my blog.
+  
   socialIcons:
     - name: github
       url: "https://github.com/yichi170"
@@ -53,3 +47,20 @@ params:
       url: "https://linkedin.com"
     - name: letterboxd
       url: "https://letterboxd.com"
+
+  # ShowBreadCrumbs: true
+  # ShowPostNavLinks: true
+  # ShowCodeCopyButtons: true
+  # ShowShareButtons: true
+  # ShareButtons: ["linkedin", "facebook"]
+  # DateFormat: "Mon. January 2, 2006"
+  # disableAnchoredHeadings: true
+  comments: true
+
+minify:
+  disableXML: true
+
+outputs:
+  home:
+    - HTML
+    - JSON
