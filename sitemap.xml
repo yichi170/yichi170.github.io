@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://yichi170.github.io/</loc>
+    <lastmod>2022-11-03T21:53:15+08:00</lastmod>
+  </url><url>
     <loc>https://yichi170.github.io/categories/</loc>
     <lastmod>2021-08-30T20:33:22+08:00</lastmod>
   </url><url>
@@ -20,7 +23,6 @@
     <loc>https://yichi170.github.io/posts/firstpost/</loc>
     <lastmod>2021-08-30T20:33:22+08:00</lastmod>
   </url><url>
-    <loc>https://yichi170.github.io/</loc>
-    <lastmod>2021-07-21T20:40:57+08:00</lastmod>
+    <loc>https://yichi170.github.io/experiences/</loc>
   </url>
 </urlset>
