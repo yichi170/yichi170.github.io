@@ -1,0 +1,15 @@
+- company: "SiFive Inc."
+  role: "Software Intern at Compiler Team"
+  period: "Sep 2022 - Sep 2023"
+  image: https://en.wikichip.org/w/images/a/a0/ic_logo_%28sifive%29.svg
+  description: "Description A"
+- company: "Kapito Inc."
+  role: "Software Engineer Intern"
+  period: "Jun 2022 - Aug 2022"
+  image: https://media.cakeresume.com/image/upload/s--aV_V5cne--/c_pad,fl_png8,h_400,w_400/v1566797045/b6hp8v1ncsodm4bj992m.png
+  description: "Description B"
+- company: "Late Night Movies @ National Tsing Hua University"
+  role: "Crew & Podcaster"
+  period: "Jul 2021 - Dec 2022"
+  image: https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-6/272418638_5212213375457107_2084909884491446364_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=8C9uMIFmylIAX-YfTe0&_nc_ht=scontent-tpe1-1.xx&oh=00_AfAYPC7AQdeuoOpnDIBRYk5D4hPKf0sg8Bbp2wRzg1yyKA&oe=65633F88
+  smallImage: https://www.nthu.edu.tw//public/images/about10/cis-1-1.jpg

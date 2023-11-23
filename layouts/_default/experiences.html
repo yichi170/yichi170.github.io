@@ -1,0 +1,57 @@
+{{- define "main" }}
+
+{{- /* Custom Header for Experience Page */ -}}
+<article class="post-single">
+  <header class="page-header">
+    <h1>{{ .Title }}</h1>
+    {{- if .Description }}
+      <div class="post-description">
+        {{ .Description | markdownify }}
+      </div>
+    {{- end }}
+  </header>
+
+  {{- /* Displaying the Experience Entries */ -}}
+  <!-- <div class="post-content"> -->
+  <div class="posts" style="max-width: 90%; margin-left: 5%;">
+    {{- range $.Site.Data.experiences }}
+    <article class="post-entry" style="display: flex; align-items: center">
+      {{ if .image }}
+        <div style="position: relative; flex: 0 0 auto; margin-right: 20px;">
+          {{ $imgSrc := .image }}
+          {{ if not (or (strings.HasPrefix $imgSrc "http://") (strings.HasPrefix $imgSrc "https://")) }}
+            {{ $imgSrc = print $.Site.BaseURL $imgSrc }}
+          {{ end }}
+          <div class="img-wrap" style="max-width: 100px; padding: 10px; border-radius: 50%; overflow: hidden;">
+            <img src="{{ $imgSrc }}" alt="{{ .company }}" 
+              style="width: 100%; height: auto; object-fit: cover; object-position: center;">  
+          </div>
+          
+          {{ if .smallImage }}
+            {{ $smallImgSrc := .smallImage }}
+            {{ if not (or (strings.HasPrefix $smallImgSrc "http://") (strings.HasPrefix $smallImgSrc "https://")) }}
+              {{ $smallImgSrc = print $.Site.BaseURL $smallImgSrc }}
+            {{ end }}
+            <img src="{{ .smallImage }}" alt="Small Image"
+            style="border-radius: 50%; width: 30px; height: 30px; object-fit: cover; position: absolute; bottom: 0; right: 0; z-index: 2;">
+          {{ end }}
+        </div>
+      {{ end }}
+      <div class="flex: 1;">
+        <header class="entry-header">
+          <h3>{{ .role }}</h3>
+        </header>
+        <div class="entry-content">
+          <p>{{ .company }}</p>
+          <p>{{ .period }}</p>
+          {{- if .description }}
+          <!-- <p>Description: {{ .description }}</p> -->
+          {{- end }}
+        </div>
+      </div>
+    </article>
+    {{- end }}
+  </div>
+</article>
+
+{{- end }}

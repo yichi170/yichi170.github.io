@@ -1,5 +1,5 @@
 baseURL: "https://yichi170.github.io/"
-title: "Yi-Chi"
+title: "Yi-Chi Lee"
 theme: "PaperMod"
 
 buildDrafts: false
@@ -9,52 +9,43 @@ disqusShortname: "yichi-1"
 
 menu:
   main:
-    - name: Home
-      url: "/"
-    - name: Posts
-      url: "/posts"
     - name: About
-      url: "/about"
+      url: "/"
+    - name: Experiences
+      url: "/experiences"
+    # - name: Blog
+    #   url: "/posts"
 
 params:
   env: production
-  author: "Yi-Chi"
+  author: "Yi-Chi Lee"
 
   profileMode:
-    # enabled: true
-    title: "Yi-Chi"
-    subtitle: >
-      Hi, I'm Yi-Chi. Welcome to my blog.
+    enabled: true
+    title: "Yi-Chi Lee"
     imageUrl: head.JPEG
     imageTitle: "Profile image"
-    # imageWidth: 120
-    # imageHeight: 120
     buttons:
       - name: Posts
         url: "/posts"
       - name: Github
         url: "https://github.com/yichi170"
-  
+
   homeInfoParams:
-    Title: "Yi-Chi"
+    Title: "Yi-Chi Lee"
     Content: >
       Hi, I'm Yi-Chi. Welcome to my blog.
-  
-  socialIcons:
-    - name: github
-      url: "https://github.com/yichi170"
-    - name: linkedin
-      url: "https://linkedin.com"
-    - name: letterboxd
-      url: "https://letterboxd.com"
 
-  # ShowBreadCrumbs: true
-  # ShowPostNavLinks: true
-  # ShowCodeCopyButtons: true
-  # ShowShareButtons: true
-  # ShareButtons: ["linkedin", "facebook"]
-  # DateFormat: "Mon. January 2, 2006"
-  # disableAnchoredHeadings: true
+  socialIcons:
+    - name: Github
+      url: "https://github.com/yichi170"
+    - name: Linkedin
+      url: "https://www.linkedin.com/in/yichi170/"
+    - name: GoogleScholar
+      url: "https://scholar.google.com/citations?user=yCwUAwQAAAAJ"
+    - name: Letterboxd
+      url: "https://letterboxd.com/yichi170"
+
   comments: true
 
 minify:
