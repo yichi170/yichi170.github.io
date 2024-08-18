@@ -37,14 +37,14 @@ params:
       Hi, I'm Yi-Chi. Welcome to my blog.
 
   socialIcons:
+    - name: Email
+      url: "mailto:yichi170@gmail.com"
     - name: Github
       url: "https://github.com/yichi170"
     - name: Linkedin
       url: "https://www.linkedin.com/in/yichi170/"
     - name: GoogleScholar
       url: "https://scholar.google.com/citations?user=yCwUAwQAAAAJ"
-    - name: Letterboxd
-      url: "https://letterboxd.com/yichi170"
 
   comments: true
 
