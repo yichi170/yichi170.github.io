@@ -17,3 +17,18 @@
     flex: 3;
     order: 2;
 }
+
+@media (max-width: 850px) {
+    .container {
+        flex-flow: column; /* Stack columns vertically */
+    }
+    
+    .left-column {
+        order: 1; /* Left column on top */
+        padding-right: 0; /* Reset padding */
+    }
+
+    .right-column {
+        order: 2; /* Right column below */
+    }
+}
