@@ -55,3 +55,7 @@ outputs:
   home:
     - HTML
     - JSON
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
