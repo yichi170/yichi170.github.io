@@ -3,12 +3,6 @@
   period: "Aug 2024 - Present"
   image: images/ut.png
 
-- company: "Mobile and Ubiquitous Interaction Lab @ National Yang Ming Chiao Tung University"
-  role: "Undergraduate Researcher"
-  period: "Jul 2021 - Jun 2024"
-  image: images/MUILab.png
-  smallImage: https://www.nycu.edu.tw/userfiles/nycuch/images/20230915165232040.png
-
 - company: "SiFive Inc."
   role: "Software Intern at Compiler Team"
   period: "Sep 2022 - Sep 2023"
@@ -21,8 +15,8 @@
   image: images/kapito.png
   description: "Description B"
 
-- company: "Late Night Movies @ National Tsing Hua University"
-  role: "Crew & Podcaster"
-  period: "Jul 2021 - Dec 2022"
-  image: images/late-night-movies.png
-  smallImage: https://www.nthu.edu.tw//public/images/about10/cis-1-1.jpg
+- company: "Mobile and Ubiquitous Interaction Lab @ National Yang Ming Chiao Tung University"
+  role: "Undergraduate Researcher"
+  period: "Jul 2021 - Jun 2024"
+  image: images/MUILab.png
+  smallImage: https://www.nycu.edu.tw/userfiles/nycuch/images/20230915165232040.png

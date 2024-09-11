@@ -11,10 +11,16 @@ menu:
   main:
     - name: About
       url: "/"
+      weight: 1
     - name: Experience
       url: "/experience"
+      weight: 2
     - name: Publications
       url: "/publications"
+      weight: 3
+    - name: Activities
+      url: "/activities"
+      weight: 4
     # - name: Blog
     #   url: "/posts"
 

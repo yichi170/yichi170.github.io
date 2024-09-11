@@ -1,0 +1,20 @@
+- company: "Taipei Film Festival"
+  role: "Field Staff"
+  period: "Jun 2024 - Jul 2024"
+  image: images/taipeiff.jpg
+
+- company: "Taiwan International Documentary Festival"
+  role: "Field Staff"
+  period: "May 2024"
+  image: images/tidf.jpg
+
+- company: "Late Night Movies @ National Tsing Hua University"
+  role: "Senior Member & Podcaster"
+  period: "Jul 2021 - Dec 2022"
+  image: images/late-night-movies.png
+  smallImage: https://www.nthu.edu.tw//public/images/about10/cis-1-1.jpg
+
+- company: "HSNU & ZSGH Alumni Association in NCTU"
+  role: "Director"
+  period: "Aug 2020 - Sep 2021"
+  image: images/fcs.jpg
