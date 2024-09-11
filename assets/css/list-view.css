@@ -20,3 +20,15 @@ body {
     /* different from default */
     -webkit-line-clamp: 3;
 }
+
+.publication-entry {
+    margin: 5px 0;
+    color: var(--secondary);
+    font-size: 14px;
+    line-height: 1.6;
+    /* different from default */
+}
+
+.paper-title {
+    color: #3888f2;
+}
