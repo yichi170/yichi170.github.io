@@ -11,8 +11,10 @@ menu:
   main:
     - name: About
       url: "/"
-    - name: Experiences
-      url: "/experiences"
+    - name: Experience
+      url: "/experience"
+    - name: Publications
+      url: "/publications"
     # - name: Blog
     #   url: "/posts"
 
