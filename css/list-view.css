@@ -32,3 +32,20 @@ body {
 .paper-title {
     color: #3888f2;
 }
+
+.news-content {
+    max-height: 80px; /* Adjust the height as needed */
+    max-width: 800px;
+    overflow-y: auto; /* Adds vertical scroll when content exceeds the height */
+    padding: 1px 0px 0px 0px;
+    display: grid;
+    grid-template-areas:
+        "a b"
+        "c d";
+}
+
+.news-date {
+    font-weight: bold;
+}
+
+
