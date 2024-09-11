@@ -49,7 +49,16 @@
             </header>
             <div class="entry-header">
                 {{ $.Content }}
+                <div class="news-section" style="margin-top: 20px;">
+                <h2>Updates!</h2>
+                <div class="news-content">
+                    {{- range site.Data.updates }}
+                    <span class="news-date">{{ .date | time.Format "Jan 2006" }}</span>
+                    <span class="news-text">{{ .text | markdownify }}</span>
+                    {{ end }}
+                </div>
             </div>
+        </div>
         </article>
     </div>
 </div>
