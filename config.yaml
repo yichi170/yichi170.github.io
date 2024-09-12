@@ -53,6 +53,8 @@ params:
       url: "https://www.linkedin.com/in/yichi170/"
     - name: GoogleScholar
       url: "https://scholar.google.com/citations?user=yCwUAwQAAAAJ"
+    - name: CV
+      url: "/Yi-Chi-CV.pdf"
 
   comments: true
 

@@ -8,7 +8,7 @@ draft: false
 # About Me
 ---
 
-Hi! I'm Yi-Chi Lee (李懿麒), a Master's student in Computer Science at <a href="https://www.cs.utexas.edu/">the University of Texas at Austin</a>, expecting to graduate in May 2026. I'm passionate about compiler development and system software and am currently seeking internship opportunities in these areas.
+Hi! I'm Yi-Chi Lee (李懿麒), a Master's student in Computer Science at <a href="https://www.cs.utexas.edu/">the University of Texas at Austin</a>, expecting to graduate in May 2026. I'm passionate about compiler development and system software and am currently **seeking internship opportunities** in these areas.
 
 \
 Previously, I interned on the compiler team at <a href="https://www.sifive.com/">SiFive</a>, developing tools to evaluate the effectiveness of compiler optimization. I've also built projects like an operating system for Raspberry Pi and a compiler for RISC-V.
