@@ -18,8 +18,8 @@ menu:
     - name: Publications
       url: "/publications"
       weight: 3
-    - name: Activities
-      url: "/activities"
+    - name: Extracurricular
+      url: "/extracurricular"
       weight: 4
     # - name: Blog
     #   url: "/posts"

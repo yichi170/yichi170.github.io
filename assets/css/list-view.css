@@ -21,6 +21,10 @@ body {
     -webkit-line-clamp: 3;
 }
 
+.post-entry:active {
+    transform: scale(1);
+}
+
 .publication-entry {
     margin: 5px 0;
     color: var(--secondary);

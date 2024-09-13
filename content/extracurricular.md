@@ -1,6 +1,6 @@
 ---
 title: "Extracurricular Activities"
 layout: "experience"
-dataSource: "activities"
+dataSource: "extracurricular"
 draft: false
 ---
