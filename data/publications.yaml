@@ -1,3 +1,9 @@
+- title: "From Overwhelmed to Overview: Understanding Smartphone Users’ Preferences and Expectations in Relieving Notification Overload via Text Summarization"
+  link: https://dl.acm.org/doi/10.1145/3743703
+  conference: "MobileHCI '25"
+  author: "Uei-Dar Chen, Peng-Jui Wang, Yi-Chi Lee, Yong-Han Lin, Yu-Ling Chou, and Yung-Ju Chang"
+  pdf: pubs/overwhelmed-to-overview.pdf
+
 - title: "Pinning, Sorting, and Categorizing Notifications: A Mixed-methods Usage and Experience Study of Mobile Notification-management Features"
   link: https://dl.acm.org/doi/10.1145/3678579
   conference: "IMWUT '24"
